@@ -26,11 +26,15 @@ If you really enjoy Long Haul and want to give me credit somewhere on the intern
 1. [Install Jekyll](http://jekyllrb.com)
 2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
 3. Clone it
-4. Install susy `gem install susy` 
+4. Install susy `gem install susy`
 5. Install normalize `gem install normalize-scss`
 6. Run Jekyll `jekyll serve -w`
 7. Run `compass watch`
 8. Customize!
+
+## Local build with docker
+
+  docker run --rm -v "$(pwd):/src" grahamc/jekyll build
 
 ## Site Settings
 
