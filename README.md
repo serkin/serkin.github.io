@@ -8,8 +8,10 @@ http://alexgorbatchev.com/SyntaxHighlighter/
 
 ## TODO
 
-- [ ] - Add Jekyll
-- [ ] - Logstash article
+- [x] - Add Jekyll
+- [ ] - zargs article
 - [ ] - add meta shema org
-- [ ] - move to serkin.github.com
+- [x] - move to serkin.github.com
 - [ ] - write about me
+- [ ] - mysql about me
+- [ ] - kibana about me
