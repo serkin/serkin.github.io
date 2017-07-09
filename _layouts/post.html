@@ -2,19 +2,22 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<div itemscope itemtype="http://schema.org/Blog">
+    <h1>{{ page.title }}</h1>
 
-<p class="lead">
-    by <a href="#">Start Bootstrap</a>
-</p>
+    <p class="lead">
+        by <a href="/" itemprop="author">Serkin Alexander</a>
+    </p>
 
-<hr>
-<p><span class="glyphicon glyphicon-time"></span> {{ page.date }}</p>
+    <hr>
+    <p><span class="glyphicon glyphicon-time"></span><meta itemprop="datePublished" content="{{ page.date }}"> {{ page.date }}</p>
 
-<hr>
-<p class="lead">{{ page.description }}</p>
+    <hr>
+    <p class="lead">{{ page.description }}</p>
 
-{{ content }}
+    {{ content }}
+
+</div>
 
 <div id="disqus_thread"></div>
 <script>
