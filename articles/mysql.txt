@@ -1,0 +1,5 @@
+sql queries in practice
+run mysql container
+run phpmyadmin container
+import dataset
+run simple query
