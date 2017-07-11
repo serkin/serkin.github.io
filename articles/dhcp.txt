@@ -1,0 +1,5 @@
+http://www.k-max.name/linux/dhcp-server-na-linux/
+http://lib.ru/LINUXGUIDE/linux-gate.html
+https://www.ibm.com/developerworks/ru/library/l-static-routing/
+https://habrahabr.ru/post/323984/
+https://it.wikireading.ru/13995

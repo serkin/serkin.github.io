@@ -1,0 +1,7 @@
+Simple usage
+
+https://en.wikipedia.org/wiki/Xargs
+http://www.thegeekstuff.com/2013/12/xargs-examples
+https://habrahabr.ru/company/selectel/blog/248207/
+https://www.howtoforge.com/tutorial/linux-xargs-command/
+https://www.howtoforge.com/tutorial/linux-xargs-command/
