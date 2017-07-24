@@ -3,3 +3,14 @@ run mysql container
 run phpmyadmin container
 import dataset
 run simple query
+
+Setting up environment
+docker run --name some-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_DATABASE=sql_joins -d mysql
+docker run --name myadmin -d --link some-mysql:db -p 8080:80 phpmyadmin/phpmyadmin
+
+
+
+
+In ouк database we have 6 users who during one year made some shopping
+We were asked our sales departnent to give up some statistics for this purchases
+Let's consider simple request from sales people

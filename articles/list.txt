@@ -1,0 +1,11 @@
+
+virtual ip
+network tools
+  https://techtalk.gfi.com/the-top-20-free-network-monitoring-and-analysis-tools-for-sys-admins/
+  http://www.networkworld.com/article/2825879/network-management/7-free-open-source-network-monitoring-tools.html
+reverse proxy
+nfs
+sdn
+disaster recovery plan
+snmp
+kafka
