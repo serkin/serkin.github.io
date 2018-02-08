@@ -1,0 +1,19 @@
+## KVM
+https://www.youtube.com/watch?v=CMnDLHZzGGw
+https://www.youtube.com/watch?v=g13AzZTki9E
+https://www.google.ru/search?q=Qemu+vs+kvm&newwindow=1&source=lnms&tbm=vid&sa=X&ved=0ahUKEwiG4IuFjuvVAhXlNpoKHT5pDxIQ_AUICygC&biw=1481&bih=871
+
+
+## curl
+https://curl.haxx.se/docs/manpage.html
+
+
+## lxc
+https://help.ubuntu.com/lts/serverguide/lxc.html
+  sudo lxc-create --template ubuntu --name $(cat /dev/urandom | tr -cd 'a-z' | head -c 10)
+
+
+## git tips
+If a commit is going to be squashed to another commit use the --squash and --fixup flags respectively, in order to make the intention clear:
+$ git commit --squash f387cab2
+(Tip: Use the --autosquash

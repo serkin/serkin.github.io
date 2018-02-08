@@ -5,7 +5,11 @@ http://prismjs.com/
 https://highlightjs.org/
 http://alexgorbatchev.com/SyntaxHighlighter/
 
+## Run localy
 
+```bash
+	docker run --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
+```
 ## TODO
 
 - [x] - Add Jekyll
