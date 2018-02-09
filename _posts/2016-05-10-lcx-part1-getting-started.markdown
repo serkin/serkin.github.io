@@ -5,6 +5,12 @@ description: "In the post we will learn the basics of LXC. We will install libra
 date:   2016-05-10
 ---
 
+<link rel="stylesheet" href="/assets/css/highlight/styles/obsidian.css">
+<script src="/assets/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<style>pre{padding:0}</style>
+
+
 <h3>Installation</h3>
 
 <p>Because I work on MacoS I have to use some sort of virtualization software. LXC runs only on Linux machines so I choose to virtualize Ubuntu server through Virtualbox+Vagrant.
@@ -29,9 +35,8 @@ sudo apt install lxc
 <h3>Running a container</h3>
 Now we have LXC installed let's run our first container
 
-lxc-create -t ubuntu -n c1
-lxc-ls -f
-
+<pre><code class="shell">lxc-create -t ubuntu -n c1
+lxc-ls -f</code></pre>
 We can see our created container in the list
 
 Isn't it simple. Now I want to review some basic operations on containers
