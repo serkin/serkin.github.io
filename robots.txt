@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sistemnyj-analitik.ru/sitemap.xml
+Sitemap: https://serkin.github.com/sitemap.xml
